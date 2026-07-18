@@ -1,0 +1,154 @@
+{
+  "settings": {
+    "title": "Six Animal Archive",
+    "description": "A digital archive preserving every story, memory, and journey of Six Animal.",
+    "version": "1.0.0",
+    "changelog": "Initial release with full features.",
+    "totalAnggota": 39,
+    "totalAlbum": 0,
+    "totalFoto": 0,
+    "totalArtikel": 0,
+    "totalArsip": 0
+  },
+  "quotes": [
+    "Belajar tanpa henti, berkarya tanpa batas.",
+    "Setiap langkah adalah cerita.",
+    "Bersama kita kuat, bersama kita abadi.",
+    "Kenangan adalah jembatan menuju masa depan."
+  ],
+  "heroSlides": [],
+  "anggota": [
+    { "nama": "Aditya Putra", "motto": "Terus melangkah", "status": "Active", "kota": "Jakarta", "foto": "https://i.pravatar.cc/150?img=1" },
+    { "nama": "Budi Santoso", "motto": "Kreatif dan inovatif", "status": "Alumni", "kota": "Bandung", "foto": "https://i.pravatar.cc/150?img=2" },
+    { "nama": "Citra Dewi", "motto": "Terangi dunia", "status": "Active", "kota": "Surabaya", "foto": "https://i.pravatar.cc/150?img=3" },
+    { "nama": "Dian Purnama", "motto": "Setia pada mimpi", "status": "Active", "kota": "Yogyakarta", "foto": "https://i.pravatar.cc/150?img=4" },
+    { "nama": "Eko Saputra", "motto": "Berani berbeda", "status": "Alumni", "kota": "Malang", "foto": "https://i.pravatar.cc/150?img=5" },
+    { "nama": "Fira Lestari", "motto": "Cantik dalam karya", "status": "Active", "kota": "Medan", "foto": "https://i.pravatar.cc/150?img=6" },
+    { "nama": "Gilang Ramadan", "motto": "Pantang menyerah", "status": "Active", "kota": "Bali", "foto": "https://i.pravatar.cc/150?img=7" },
+    { "nama": "Hana Kartika", "motto": "Inspirasi dari hati", "status": "Alumni", "kota": "Makassar", "foto": "https://i.pravatar.cc/150?img=8" },
+    { "nama": "Indra Wijaya", "motto": "Berbagi kebahagiaan", "status": "Active", "kota": "Semarang", "foto": "https://i.pravatar.cc/150?img=9" },
+    { "nama": "Joko Prasetyo", "motto": "Tetap rendah hati", "status": "Active", "kota": "Palembang", "foto": "https://i.pravatar.cc/150?img=10" },
+    { "nama": "Kartika Sari", "motto": "Bersinar dalam gelap", "status": "Alumni", "kota": "Balikpapan", "foto": "https://i.pravatar.cc/150?img=11" },
+    { "nama": "Lukman Hakim", "motto": "Berani bermimpi", "status": "Active", "kota": "Pontianak", "foto": "https://i.pravatar.cc/150?img=12" },
+    { "nama": "Maya Anggraini", "motto": "Ketulusan adalah segalanya", "status": "Active", "kota": "Padang", "foto": "https://i.pravatar.cc/150?img=13" },
+    { "nama": "Nanda Putri", "motto": "Kecil namun berarti", "status": "Alumni", "kota": "Aceh", "foto": "https://i.pravatar.cc/150?img=14" },
+    { "nama": "Oki Setiawan", "motto": "Terus berinovasi", "status": "Active", "kota": "Denpasar", "foto": "https://i.pravatar.cc/150?img=15" },
+    { "nama": "Prita Maharani", "motto": "Ceria dan berdaya", "status": "Active", "kota": "Manado", "foto": "https://i.pravatar.cc/150?img=16" }
+  ],
+  "album": [
+    {
+      "judul": "Perjalanan KKN",
+      "kategori": "Dokumentasi",
+      "cover": "https://picsum.photos/seed/kkn/400/300",
+      "items": []
+    },
+    {
+      "judul": "Kelas Inspirasi",
+      "kategori": "Kegiatan",
+      "cover": "https://picsum.photos/seed/inspirasi/400/300",
+      "items": []
+    },
+    {
+      "judul": "Wisuda 2025",
+      "kategori": "Wisuda",
+      "cover": "https://picsum.photos/seed/wisuda/400/300",
+      "items": []
+    },
+    {
+      "judul": "Outbond Kebersamaan",
+      "kategori": "Outdoor",
+      "cover": "https://picsum.photos/seed/outbond/400/300",
+      "items": []
+    },
+    {
+      "judul": "Malam Puncak",
+      "kategori": "Acara",
+      "cover": "https://picsum.photos/seed/malam/400/300",
+      "items": []
+    },
+    {
+      "judul": "Karya Seni Kelas",
+      "kategori": "Seni",
+      "cover": "https://picsum.photos/seed/seni/400/300",
+      "items": []
+    }
+  ],
+  "artikel": [
+    {
+      "judul": "Membangun Kolaborasi yang Kuat",
+      "penulis": "Aditya Putra",
+      "tanggal": "15 Jan 2025",
+      "readingTime": "5 min read",
+      "cover": "https://picsum.photos/seed/kolaborasi/400/200",
+      "tag": ["Kolaborasi", "Tim"]
+    },
+    {
+      "judul": "Kreativitas di Era Digital",
+      "penulis": "Citra Dewi",
+      "tanggal": "10 Feb 2025",
+      "readingTime": "7 min read",
+      "cover": "https://picsum.photos/seed/kreativitas/400/200",
+      "tag": ["Kreativitas", "Digital"]
+    },
+    {
+      "judul": "Kenangan Tak Terlupakan",
+      "penulis": "Eko Saputra",
+      "tanggal": "5 Mar 2025",
+      "readingTime": "4 min read",
+      "cover": "https://picsum.photos/seed/kenangan/400/200",
+      "tag": ["Kenangan", "Emosi"]
+    }
+  ],
+  "pustaka": [
+    {
+      "judul": "Buku Tahunan 2025",
+      "type": "buku",
+      "penulis": "Six Animal Team",
+      "tahun": "2025",
+      "icon": "📖",
+      "url": "assets/pdf/tahunan2025.pdf"
+    },
+    {
+      "judul": "Arsip Kegiatan 2024",
+      "type": "arsip",
+      "penulis": "Panitia",
+      "tahun": "2024",
+      "icon": "📁",
+      "url": "assets/pdf/arsip2024.pdf"
+    },
+    {
+      "judul": "Panduan Akademik",
+      "type": "dokumen",
+      "penulis": "Akademik",
+      "tahun": "2025",
+      "icon": "📘",
+      "url": "assets/pdf/panduan.pdf"
+    },
+    {
+      "judul": "Link Referensi Belajar",
+      "type": "link",
+      "penulis": "Admin",
+      "tahun": "2025",
+      "icon": "🔗",
+      "url": "https://example.com"
+    }
+  ],
+  "faq": [
+    {
+      "pertanyaan": "Apa itu Six Animal Archive?",
+      "jawaban": "Six Animal Archive adalah arsip digital yang menyimpan cerita, kenangan, dan perjalanan kelas Six Animal."
+    },
+    {
+      "pertanyaan": "Bagaimana cara mengakses album?",
+      "jawaban": "Klik menu Album di navigasi, lalu pilih kategori atau klik langsung foto untuk melihat detail."
+    },
+    {
+      "pertanyaan": "Apakah website ini bisa diakses offline?",
+      "jawaban": "Ya, website ini didukung PWA sehingga dapat diakses secara offline setelah dimuat pertama kali."
+    },
+    {
+      "pertanyaan": "Siapa pengembang website ini?",
+      "jawaban": "Website ini dikembangkan oleh Just Cosmic dengan penuh semangat dan dedikasi."
+    }
+  ]
+}
