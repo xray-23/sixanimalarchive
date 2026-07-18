@@ -1,0 +1,21 @@
+{
+  "name": "Six Animal Archive",
+  "short_name": "SAA",
+  "description": "A digital archive for Six Animal class",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "assets/img/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Six Animal Archive</title>
+  <meta name="description" content="A digital archive preserving every story, memory, and journey of Six Animal." />
+  <link rel="icon" href="assets/img/logo/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Six Animal Archive" />
+  <meta property="og:description" content="A digital archive preserving every story, memory, and journey of Six Animal." />
+  <meta property="og:image" content="assets/img/logo/og-image.jpg" />
+  <meta property="og:url" content="https://sixanimalarchive.netlify.app" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/app.css" />
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader-ring"></div>
+    <p>Loading archive...</p>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor"></div>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"><div class="progress-bar"></div></div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">✦</span>
+        <span>SixAnimal</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" data-page="home" class="active">Home</a></li>
+        <li><a href="#album" data-page="album">Album</a></li>
+        <li><a href="#artikel" data-page="artikel">Artikel</a></li>
+        <li><a href="#pustaka" data-page="pustaka">Pustaka</a></li>
+        <li><a href="#bantuan" data-page="bantuan">Bantuan</a></li>
+      </ul>
+      <div class="nav-hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="app">
+
+    <!-- HOME -->
+    <section id="page-home" class="page active">
+      <div class="hero">
+        <div id="three-bg"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Six Animal Archive</h1>
+          <p class="hero-sub">A digital archive preserving every story, memory, and journey of Six Animal.</p>
+          <div class="hero-dashboard">
+            <div class="stat"><span id="stat-quote">"..."</span><small>Quote of the Day</small></div>
+            <div class="stat"><span id="stat-anggota">39</span><small>Anggota</small></div>
+            <div class="stat"><span id="stat-album">0</span><small>Album</small></div>
+            <div class="stat"><span id="stat-foto">0</span><small>Foto</small></div>
+            <div class="stat"><span id="stat-artikel">0</span><small>Artikel</small></div>
+            <div class="stat"><span id="stat-arsip">0</span><small>Arsip</small></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Anggota -->
+      <div class="section-slider">
+        <h2 class="section-title">Anggota Kelas</h2>
+        <div class="swiper anggota-swiper">
+          <div class="swiper-wrapper" id="anggota-slider"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALBUM -->
+    <section id="page-album" class="page">
+      <div class="container">
+        <h2 class="section-title">Album</h2>
+        <div class="album-categories" id="album-categories"></div>
+        <div class="album-masonry" id="album-grid"></div>
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+          <span class="close">&times;</span>
+          <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="" />
+            <div class="lightbox-info">
+              <h3 id="lb-title"></h3>
+              <p id="lb-sub"></p>
+            </div>
+          </div>
+          <button class="prev">❮</button>
+          <button class="next">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTIKEL -->
+    <section id="page-artikel" class="page">
+      <div class="container">
+        <h2 class="section-title">Artikel</h2>
+        <div class="artikel-toolbar">
+          <input type="text" id="artikel-search" placeholder="Cari artikel..." />
+          <select id="artikel-filter"><option value="all">Semua</option></select>
+        </div>
+        <div class="artikel-grid" id="artikel-grid"></div>
+      </div>
+    </section>
+
+    <!-- PUSTAKA -->
+    <section id="page-pustaka" class="page">
+      <div class="container">
+        <h2 class="section-title">Pustaka</h2>
+        <div class="pustaka-toolbar">
+          <input type="text" id="pustaka-search" placeholder="Cari dokumen..." />
+          <select id="pustaka-filter"><option value="all">Semua</option></select>
+        </div>
+        <div class="pustaka-grid" id="pustaka-grid"></div>
+      </div>
+    </section>
+
+    <!-- BANTUAN -->
+    <section id="page-bantuan" class="page">
+      <div class="container">
+        <h2 class="section-title">Bantuan</h2>
+        <div class="faq-accordion" id="faq-accordion"></div>
+        <div class="about-website">
+          <h3>Tentang Website</h3>
+          <p>Six Animal Archive adalah arsip digital untuk kelas Six Animal.</p>
+          <p><strong>Versi:</strong> <span id="version">1.0.0</span></p>
+          <p><strong>Changelog:</strong> <span id="changelog">Initial release</span></p>
+          <p><strong>Kontak Admin:</strong> <a href="mailto:admin@sixanimal.com">admin@sixanimal.com</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>©2025 Six Animal Archive &mdash; Crafted with passion by Just Cosmic.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.0.42/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script src="assets/data.json" type="application/json" id="data-json"></script>
+  <script src="assets/app.js"></script>
+  <script src="assets/animation.js"></script>
+</body>
+</html>
